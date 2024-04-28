@@ -1,0 +1,19 @@
+{
+  "name": "express_app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Node.js and express on Docker",
+  "author": "Firstname Lastname <mynames@example.com>",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.1",
+    "globals": "^15.0.0"
+  },
+  "scripts": {
+    "lint": "eslint 'app.js'"
+  }
+}
